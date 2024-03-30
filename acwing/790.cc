@@ -14,6 +14,8 @@ int main() {
     cin >> num;
 
     double l = -100000, r = 100000;
+
+    // 二分
     while (r - l > 1e-8) {
         double mid = (l + r) / 2;
         if (mid * mid * mid >= num) {

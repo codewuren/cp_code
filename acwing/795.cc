@@ -10,7 +10,7 @@ int main() {
     cin >> n >> m;
 
     vector<int> vec(n);
-    vector<int> sums(n);
+    vector<int> sums(n);    //前缀和Vector
     int sum = 0;
     for (int i = 0; i < n; i++) {
         cin >> vec[i];

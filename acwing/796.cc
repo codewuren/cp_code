@@ -14,6 +14,8 @@ int main() {
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= m; j++) {
             cin >> matrix[i][j];
+
+            // 构建sums，sums[i][j]为(1,1)到(i,j)构成的矩阵的和
             sums[i][j] = sums[i - 1][j] + sums[i][j - 1] - sums[i - 1][j - 1] + matrix[i][j];
         }
     }
