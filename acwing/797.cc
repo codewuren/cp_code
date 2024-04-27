@@ -18,7 +18,7 @@ int main() {
 
     while (m--) {
         int l, r, c;
-        cin >> l >> r >> c;
+            cin >> l >> r >> c;           
         dif[l] += c;
         dif[r + 1] -= c;
     }
