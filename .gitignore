@@ -1,10 +1,2 @@
-*
-!/*.c
-!/*.cc
-!/*.cpp
-!/*.py
-!/*.excalidraw
-!/*.png
-!/.gitignore
-!/LICENSE
-!/*.md
+*.exe
+*.out
