@@ -14,9 +14,7 @@ int main() {
     cin >> str;
 
     unordered_map<char, int> ma;
-    for (int i = 0; i < str.length(); i++) {
-        ma[str[i]]++;
-    }
+    for (auto v : str) ma[v]++;
 
     cout << (ma.size() % 2 == 0 ? "CHAT WITH HER!" : "IGNORE HIM!") << endl;
 
